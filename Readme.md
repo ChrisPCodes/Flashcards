@@ -7,7 +7,7 @@ This is a flashcard app which currently allows the user to learn how hot the sun
 
 ### App Walk-though
 
-![](https://i.imgur.com/KL4pBLa.gif)
+![](https://i.imgur.com/Y2jxWbc.gif)
 
 ## Required
 - [X] Create New Project in Xcode
