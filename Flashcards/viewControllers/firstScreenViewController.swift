@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class firstScreenViewController: UIViewController {
     
     @IBOutlet weak var frontLabel: UILabel!
     @IBOutlet weak var backLabel: UILabel!
@@ -64,8 +64,6 @@ class ViewController: UIViewController {
         btnOptionThree.isHidden = true
     }
     
-    
-    
     @IBAction func didTapOnFlashcard(_ sender: Any) {
         
         // If front label is hidden unhide otherwise hide it
@@ -75,6 +73,24 @@ class ViewController: UIViewController {
         else {
             frontLabel.isHidden = true
         }
+    }
+    
+    func updateFlashcard(question: String, answer: String){
+        // Use question and Answer to immediately update the question and answer label
+        frontLabel.text = question
+        backLabel.text = answer
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?){
+        
+        //We know the destination of the seque is the Navigatin Controller
+        let navigationController = segue.destination as! UINavigationController
+        
+        //
+        let creationController = navigationController.topViewController as! CreationViewController
+        
+        // We set the flashcardsController prpterty to self
+        creationController.flashcardsController = self
     }
 }
 
