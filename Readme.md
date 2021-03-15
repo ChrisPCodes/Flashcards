@@ -3,7 +3,7 @@
 ## Lab 2
 
 ### App Description
-Flash car app now allows user to create new flash cards. Also they can cancel our of the creation screen.
+Flash card app now allows user to create new flash cards. Also they can cancel out of the creation screen.
 
 ### App Walk-though
 ![](https://i.imgur.com/T7xQl8r.gif)
