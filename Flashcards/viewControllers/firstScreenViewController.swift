@@ -3,7 +3,7 @@
 //  Flashcards
 //
 //  Created by Chris Pineda on 2/20/21.
-//v
+//
 
 
 import UIKit
@@ -206,7 +206,6 @@ class firstScreenViewController: UIViewController {
             
             // Put all these cards in our flashcards array
             flashcards.append(contentsOf: savedCards)
-            
         }
     }
     
