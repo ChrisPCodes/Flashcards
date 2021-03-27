@@ -79,6 +79,22 @@
                                     <segue destination="yQs-39-LPI" kind="presentation" id="Ww7-v4-Pde"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SFO-YL-H1B">
+                                <rect key="frame" x="86" y="772" width="31" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Prev"/>
+                                <connections>
+                                    <action selector="didTapOnPrev:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nu4-zV-YkR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Szp-Aj-uqa">
+                                <rect key="frame" x="297" y="770" width="32" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <action selector="didTapOnNext:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FBQ-dd-Ie5"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -90,6 +106,8 @@
                         <outlet property="btnOptionTwo" destination="7S2-bL-DvM" id="fUR-6X-u7g"/>
                         <outlet property="card" destination="81x-hO-YVF" id="uSz-ah-TmK"/>
                         <outlet property="frontLabel" destination="NfQ-zK-Gqd" id="AgN-EE-lmX"/>
+                        <outlet property="nextButton" destination="Szp-Aj-uqa" id="RfG-cW-jvQ"/>
+                        <outlet property="prevButton" destination="SFO-YL-H1B" id="1Aw-jG-Vma"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -99,7 +117,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="-926" y="-40"/>
+            <point key="canvasLocation" x="-926.08695652173924" y="-40.178571428571423"/>
         </scene>
         <!--Creation View Controller-->
         <scene sceneID="nVa-5O-dU7">
