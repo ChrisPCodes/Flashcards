@@ -191,7 +191,7 @@ class firstScreenViewController: UIViewController {
         UserDefaults.standard.set(dictionaryArray, forKey: "flashcards")
         
         // Log it
-        print("🎉 Flashcards saved to UserDefaults")
+        //print("🎉 Flashcards saved to UserDefaults")
     }
     
     func readSavedFlashcards(){
