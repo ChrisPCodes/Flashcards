@@ -3,7 +3,7 @@
 ## Lab 3
 
 ### App Description
-`TODO:// Flashcard app now allows users to toggle between the various flashcard. Also flashcares are now stored on the disk meaning flashcards are saved even after closing app. Still need to allow user to update multiple choice.
+Flashcard app now allows users to toggle between the various flashcard. Also flashcares are now stored on the disk meaning flashcards are saved even after closing app. Still need to allow user to update multiple choice.
 
 ### App Walk-though
 ![](https://i.imgur.com/2phHznV.gif)
